@@ -28,7 +28,7 @@
     <!-- Code for the Navbar -->
     <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark">
       <div class="container-fluid">
-        <a class="navbar-brand" href="#">
+        <a class="navbar-brand" href="index.html">
         <img class="headshot" src="headshot.jpeg" Height = 30px/>
         Arnold Schaefer's Portfolio</a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -39,8 +39,18 @@
             <li class="nav-item">
               <a class="nav-link active" aria-current="page" href="index.html">Home</a>
             </li>
-            <li class="nav-item">
-              <a class="nav-link active" href="projects.html">Projects</a>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Projects
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" href="projects.html">Projects Overview</a></li>
+                <li><hr class="dropdown-divider"></li>
+                <li><a class="dropdown-item" href="#">PACMEN Exercise</a></li>
+                <li><a class="dropdown-item" href="#">EYE Exercise</a></li>
+                <li><a class="dropdown-item" href="#">BUS TRACKER Exercise</a></li>
+                <li><a class="dropdown-item" href="#">HANOI TOWER Exercise</a></li>
+              </ul>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="https://www.linkedin.com/in/arnoldschaefer/" target="_blank" rel="noopener noreferrer">
@@ -75,21 +85,50 @@
     </nav>
     <!-- End of Navbar Code -->
     
-    <div  class="container">
-      
-      <div  class="topitem"> WELCOME TO MY PROJECTS <br>
-        Below you will find all of the projects that I have been working on. You can explore these projects and get a live preview or you can go to the GitHub repository and check them out!
-      </div>
-      
-      <div  class="centeritem"> PACMEN Exercise <br>
+    <!-- PROJECT CONTENT -->
+    <div class="container">
+      <div class="centerview">
         
-      </div>
-      
-      <div  class="centeritem"> MOVING EYE Exercise<br>
-        
-      </div>
-      
-      <div  class="bottomitem"> BUS TRACKER Exercise <br>
+        <!-- PROJECT INTRODUCTION -->
+        <div class="content">
+          <div class="contentdiv fulllengthheader"> 
+            WELCOME TO MY PROJECTS!
+          </div>
+          <div class="contentdiv fulllength"> 
+            Below you will find all of the projects that I have been working on. You can explore these projects and get a live preview or you can go to the GitHub repository and check them out!
+          </div>
+        </div>
+          
+        <!-- WEEK 7 -->
+        <div class="content">
+          <div class="contentdiv fulllengthheader"> 
+            PACMAN Exercise
+          </div>
+          <div class="contentdiv projectscreenshot"> 
+            <img src="screenshotPacman.png" Width = 100%/>
+          </div>
+          <div class="contentdiv projectabout"> 
+            ABOUT THIS PROJECT: <br>
+            This Pacman exercise allows the user to add a large number of packmen to the screen and they will float around and bounce off the edged. This exercise focused on adding elements to the DOM and being able to recognize the user’s screen size.
+          </div>
+          <div class="contentdiv"> 
+            <div class="socialButton">
+              <a href="https://github.com/Arnold-Schaefer/PACMAN-Exercise" target="_blank" rel="noopener noreferrer">
+                <img src="github.png" Height = 30px/> GitHub Repo
+              </a>
+            </div>
+          </div>
+          <div class="contentdiv"> 
+            <div class="socialButton">
+              <a href="https://github.com/Arnold-Schaefer/PACMAN-Exercise" target="_blank" rel="noopener noreferrer">
+                <img src="github.png" Height = 30px/> Live Preview
+              </a>
+            </div>
+          </div>
+          
+          
+        </div>
+          
         
       </div>
     </div>

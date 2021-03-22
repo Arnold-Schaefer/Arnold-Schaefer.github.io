@@ -28,7 +28,7 @@
     <!-- Code for the Navbar -->
     <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark">
       <div class="container-fluid">
-        <a class="navbar-brand" href="#">
+        <a class="navbar-brand" href="index.html">
           <img class="headshot" src="headshot.jpeg" Height = 30px/>
           Arnold Schaefer's Portfolio</a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -39,8 +39,18 @@
             <li class="nav-item">
               <a class="nav-link active" aria-current="page" href="index.html">Home</a>
             </li>
-            <li class="nav-item">
-              <a class="nav-link active" href="projects.html">Projects</a>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Projects
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" href="projects.html">Projects Overview</a></li>
+                <li><hr class="dropdown-divider"></li>
+                <li><a class="dropdown-item" href="#">PACMEN Exercise</a></li>
+                <li><a class="dropdown-item" href="#">EYE Exercise</a></li>
+                <li><a class="dropdown-item" href="#">BUS TRACKER Exercise</a></li>
+                <li><a class="dropdown-item" href="#">HANOI TOWER Exercise</a></li>
+              </ul>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="https://www.linkedin.com/in/arnoldschaefer/" target="_blank" rel="noopener noreferrer">
@@ -68,8 +78,40 @@
     </nav>
     <!-- End of Navbar Code -->
     
-    <div  class="container">
+    <div class="container">
+      <div class="centerview">
+        <div class="content">
+          <div class="contentdiv headshotmain"> 
+            <img class="headshot" src="headshot.jpeg" Height = 100px/>
+          </div>
+          <div class="contentdiv introduction"> WELCOME TO MY PORTFOLIO! <br>
+            My name is Arnold Schaefer and I am a mechanical engineer who is based in Indianapolis! I am working through a full stack development bootcamp from MIT to expand on what I know about development. This page will house all of the projects that I am working on to give you an idea of what I have learned. Feel free to go through some of my github projects or to look at my linked in to see what my current job is like! See links below!</div>
+          <div class="contentdiv youtubevideo"> <iframe class="videoembed" src="https://www.youtube.com/embed/w2JWszHGh9c" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"></iframe> </div>
+          <div class="contentdiv bio"> 
+            My name is Arnold Schaefer and I am a mechanical engineer who is based in Indianapolis! I am working through a full stack development bootcamp from MIT to expand on what I know about development. This page will house all of the projects that I am working on to give you an idea of what I have learned. Feel free to go through some of my github projects or to look at my linked in to see what my current job is like! See links below! </div>
+          <div class="contentdiv linkedinlink"> 
+            <div class="socialButton">
+              <a href="https://www.linkedin.com/in/arnoldschaefer/" target="_blank" rel="noopener noreferrer">
+                <img src="linkedin.png" Height = 30px/> LinkedIn
+              </a>
+            </div>
+          </div>
+          <div class="contentdiv githublink"> 
+            <div class="socialButton"> 
+              <a href="https://www.linkedin.com/in/arnoldschaefer/" target="_blank" rel="noopener noreferrer">
+                <img src="github.png" Height = 30px/> GitHub
+              </a>
+            </div>
+          </div>
+          <div class="contentdiv fulllength"> 
+            <div class="socialButton">
+              arnoldschaefer (at) icloud (dot) com 
+            </div>
+          </div>
+        </div>
+      </div>
       
+      <!--
       <div  class="topitem"> INTRODUCTION <br>
         <iframe class="youtube" src="https://www.youtube.com/embed/w2JWszHGh9c" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"></iframe>
       </div>
@@ -88,9 +130,9 @@
             </div>
           </div>
         </div>
-      </div>
-      
+      </div>      
       <div class="bottomitem"> Projects </div>
+      -->
     </div>
 
   </body>
