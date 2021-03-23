@@ -1,6 +1,6 @@
 /* My styles */
 .centerview {
-  border: 3px solid black;
+/*  border: 3px solid black;*/
   padding-top: 70px;
   padding-right: 20px;
   padding-bottom: 20px;
@@ -19,7 +19,7 @@
 .webpagebackground {
   display: grid;
   grid-template-columns: 1fr;
-  background-color: rgb(82, 102, 107);
+/*  background-color: rgb(82, 102, 107);*/
 }
 .backgroundpicture {
   grid-column: 1/2;
@@ -60,25 +60,27 @@
   grid-column: 1/5;
 }
 .fulllengthheader{
+  padding-top: 20px;
   grid-column: 1/5;
-  color: white;
-  background-color: rgb(33, 37, 41);
-  border-radius: 10px;
-  border: 2px solid black;
+  color: rgb(33, 37, 41);
+/*  background-color: rgb(33, 37, 41);*/
+  border-bottom: 2px solid rgb(33, 37, 41);
   font-weight: bold;
   font-size: large;
 }
 .attribution {
   text-align: center;
   color: white;
-  border: 2px solid black;
+  padding-top: 10px;
+  padding-bottom: 10px;
+/*  border: 2px solid black;*/
   font-size: small;
-  border-radius: 10px;
+/*  border-radius: 10px;*/
   background-color: rgb(33, 37, 41);
 }
 .headshot{
   border-radius: 50%;
-  border: 2px solid black;
+  border: 1px solid lightgray;
 }
 .headshotmain{
   grid-column: 1/2;
@@ -123,8 +125,12 @@ a.button:active {
 .linkbutton {
   padding: 10px;
 /*  background-color: rgb(82, 102, 107);*/
-  background-color: rgb(43, 61, 65);
+  background-color: rgb(83, 94, 105);
   border-radius: 10px;
   color: white;
-  border: 2px solid black;
+/*  border: 2px solid black;*/
+}
+.projectintro {
+  color: rgb(33, 37, 41);
+  font-weight: bold;
 }
