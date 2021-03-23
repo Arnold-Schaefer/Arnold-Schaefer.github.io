@@ -1,10 +1,9 @@
 /* My styles */
 .centerview {
-  border: 1px solid black;
-  background-color: lightgray;
+  border: 3px solid black;
   padding-top: 70px;
   padding-right: 20px;
-  padding-bottom: 70px;
+  padding-bottom: 20px;
   padding-left: 20px;
 }
 .content {
@@ -12,10 +11,28 @@
   grid-template-columns: 1fr 1fr 1fr 1fr;
 }
 .contentdiv{
-  border: 1px solid white;
+/*  border: 1px solid lightgray;*/
   padding: 5px;
   text-align: center;
   vertical-align: center;
+}
+.webpagebackground {
+  display: grid;
+  grid-template-columns: 1fr;
+  background-color: rgb(82, 102, 107);
+}
+.backgroundpicture {
+  grid-column: 1/2;
+  grid-row: 1/2;
+  z-index: 7;
+  position: fixed;
+  opacity: 0.25;
+}
+.container {
+  background-color: white;
+  grid-column: 1/2;
+  grid-row: 1/2;
+  z-index: 8;
 }
 .introduction{
   grid-column: 2/5;
@@ -32,10 +49,10 @@
   width: 100%;
   height: calc(100vw * 0.37);
 }
-.linkedinlink{
+.linkLI{
   grid-column: 1/3;
 }
-.githublink{
+.linkGH{
   grid-column: 3/5;
 }
 .fulllength{
@@ -43,10 +60,20 @@
 }
 .fulllengthheader{
   grid-column: 1/5;
-  background-color: gray;
+  color: white;
+  background-color: rgb(33, 37, 41);
+  border-radius: 10px;
+  border: 2px solid black;
+  font-weight: bold;
+  font-size: large;
 }
-.bottomBar {
+.attribution {
   text-align: center;
+  color: white;
+  border: 2px solid black;
+  font-size: small;
+  border-radius: 10px;
+  background-color: rgb(33, 37, 41);
 }
 .headshot{
   border-radius: 50%;
@@ -55,24 +82,28 @@
 .headshotmain{
   grid-column: 1/2;
 }
-.socialButton {
-  padding: 10px;
-  background-color:rgb(33, 37, 41);;
-  border-radius: 10px;
-  color: white;
+.projectscreenshot {
   border: 2px solid black;
 }
-.projectscreenshot {
+.projectscreenshotcontainer {
   grid-column: 1/3;
   grid-row: 2/5;
+  padding: 10px;
 }
 .projectabout {
   grid-column: 3/5;
   grid-row: 2/4;
   text-align: left;
+  padding: 10px;
 }
 a:link {
   color: white; 
-  background-color: transparent; 
   text-decoration: none;
+}
+.linkbutton {
+  padding: 10px;
+  background-color: rgb(82, 102, 107);
+  border-radius: 10px;
+  color: white;
+  border: 2px solid black;
 }
